@@ -36,6 +36,6 @@ Just compile this code using `make` and flash it using `make program` (you may n
 ## Usage
 Connect to your atmega using a serial cable with a Terminal at 57600 baud (tested with GtkTerm) and reset the Microcontroller. This will drop you in some type of shell, no matter if the SD Card is connected and working or not. Just type `help` and get started.
 In order to write files to your SD / MMC you should have created an empty, large file before.
-If the SD Card could not be initialized while booting, type `init` in the shell. If it does not work, make sure you got the pinning right, you may want to try a different SD Card or try if you swapped two pins (MOSI/ MISO or easy to swap).
+If the SD Card could not be initialized while booting, type `init` in the shell. If it does not work, make sure you got the pinning right, you may want to try a different SD Card or try if you swapped two pins (You might have got MOSI / MISO wrong).
 
 ## Have fun!
